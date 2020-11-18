@@ -6,6 +6,7 @@
 package Main;
 
 import Controller.Controller;
+import View.MainMenu;
 
 /**
  *
@@ -16,8 +17,9 @@ public class Main {
     static Controller controller = new Controller();
     
     public static void main(String[] args) {
-        
+        new MainMenu();
 
+        
     }
     
 }
